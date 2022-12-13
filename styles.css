@@ -74,3 +74,114 @@ body {
 .header-subtext {
     margin-bottom: 10px;
 }
+
+.body {
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, Roboto;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-header-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.images-container {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    margin-bottom: 250px;
+    width: 888.281px;
+}
+
+.img-one,
+.img-two,
+.img-three,
+.img-four {
+    display: flex;
+    flex-direction: column;
+}
+
+.i-one,
+.i-two,
+.i-three,
+.i-four {
+width: 170px;
+height: 170px;
+border: 4px solid #3882f6;
+border-radius: 8px;
+margin-bottom: 10px;
+}
+
+.body-header {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.quote-container-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 225px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+}
+
+.thor-quote {
+    text-align: end;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px
+}
+
+.cta-container {
+    display: flex;
+    background-color: #3882f6;
+    margin-bottom: 80px;
+    border-radius: 8px;
+    padding: 50px 0 50px 90px;
+    color: #f9faf8;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 150px;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: system-ui, Roboto;
+    font-size: 18px;
+}
+
+.cta {
+    font-weight: bold;
+    font-size: 22px;
+}
